@@ -1,24 +1,26 @@
 ---
 title: "Predicting the winner of the Great British Baking Show 2022"
 author: "Semane Reddy - Mbewu"
-description: "The winner of the Great British Baking Show based on patterns in contenstant data"
+description: "Predicting the winner of the Great British Baking Show based on patterns in contenstant data"
 output:
   distill::distill_article:
     self_contained: false
 ---
 
 
-
 ## Project thoughts
 
-I am interested in predicting this years winner of the Great British Baking Show. I will be using data collected by watcher
+I am interested in predicting this years winner of the Great British Baking Show. 
 
-To investigate the factors correlated with winning I will be using data from
+I will start by looking for factors that are correlated with winning by examining a number of variables such as: age, gender, ethnicity, where contestants are from, profession, number of star bakers won before winning the grand final, number of technical challenges won before winning the grand final, number of handshakes given by Paul Hollywood before winning the grand final etc. 
+
+I will then use the data on this years contestants, as well as the correlations I have found, to predict the 2022 winner. 
+
+I will be using data from:
 
 1. Alison Hill's "bakeoff" package: "The goal of bakeoff is to enable data wrangling, analysis, and visualizations with R using data from “The Great British Bake Off”. https://github.com/apreshill/bakeoff or https://bakeoff.netlify.app/
 
 
-I will attempt to estimate the winner of this years bake off based on the correlations. 
 
 
 
